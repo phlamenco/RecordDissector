@@ -1,0 +1,26 @@
+syntax = "proto2";
+
+package com.gdt.log_process.experimental.dragon4sc;
+
+option java_outer_classname = "DocumentProtos";
+
+message Links {
+  repeated int64 backward = 1 [packed=true];
+  repeated int64 forward = 2 [packed=true];
+}
+
+message Language {
+  required string code = 1;
+  optional string country = 2;
+}
+
+message Name {
+  repeated Language language = 1;
+  optional string url = 2;
+}
+
+message Document {
+  required int64 doc_id = 1;
+  optional Links links = 2;
+  repeated Name name = 3;
+}
