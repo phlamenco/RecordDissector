@@ -1,13 +1,3 @@
-/**
-  * Copyright 2018, Tencent Inc.
-  * All rights reserved.
-  *
-  * @Author: atlasliao <atlasliao@tencent.com>
-  */
-
-package com.gdt.log_process.experimental.dragon4sc
-
-import com.gdt.log_process.experimental.dragon4sc.DocumentProtos.Document
 import com.google.protobuf.TextFormat
 import org.scalatest.FunSuite
 

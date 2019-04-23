@@ -1,7 +1,5 @@
 syntax = "proto2";
 
-package com.gdt.log_process.experimental.dragon4sc;
-
 option java_outer_classname = "DocumentProtos";
 
 message Links {

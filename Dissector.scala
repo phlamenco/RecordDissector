@@ -1,12 +1,3 @@
-/**
-  * Copyright 2018, Tencent Inc.
-  * All rights reserved.
-  *
-  * @Author: atlasliao <atlasliao@tencent.com>
-  */
-
-package com.gdt.log_process.experimental.dragon4sc
-
 import com.google.protobuf.Message
 
 object Dissector {
